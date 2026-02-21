@@ -1,73 +1,69 @@
-# Welcome to your Lovable project
+# Anti-Gravity Portfolio 🌌
 
-## Project info
+A premium, immersive 3D personal portfolio built with React, Three.js, and Framer Motion. This project features a high-performance interactive interface with smooth animations and a secure contact system.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## ✨ Features
 
-## How can I edit this code?
+- **Immersive 3D Graphics**: Integrated Three.js via `@react-three/fiber` for real-time 3D particle fields and floating geometry.
+- **Dynamic Animations**: Seamless transitions and entrance animations powered by **Framer Motion** and **GSAP**.
+- **Modern UI Components**: Sleek, glassmorphic design system using **Shadcn/UI** and **Tailwind CSS**.
+- **Interactive Navigation**: Custom-built interactive cursor and dimension-switching navigation.
+- **Secure Contact Form**: Professional contact system integrated with **Resend API** and a Node.js backend to protect sensitive keys.
+- **Responsive Architecture**: Fully mobile-responsive layout designed for all screen dimensions.
 
-There are several ways of editing your application.
+## 🚀 Tech Stack
 
-**Use Lovable**
+- **Frontend**: React 18, Vite, TypeScript
+- **3D Engine**: Three.js, React Three Fiber, Drei
+- **Styling**: Tailwind CSS, Lucide Icons
+- **UI Components**: Shadcn UI, Radix UI
+- **Animations**: Framer Motion, GSAP
+- **Backend**: Express.js, Node.js
+- **Email Service**: Resend (Primary), Nodemailer (Backup)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🛠️ Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- Node.js (v18 or higher)
+- npm (or bun/yarn)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/FRONTEND-DEV-KAUSHAL/personal-portfolio.git
+   cd anti-gravity-journey-main
+   ```
 
-Follow these steps:
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+3. **Set up environment variables**:
+   Create a `.env` file in the root directory:
+   ```env
+   RESEND_API_KEY="your_resend_api_key"
+   EMAIL_USER="your_gmail@gmail.com"
+   EMAIL_PASSWORD="your_app_password"
+   PORT=5000
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Running Locally
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+To run both the frontend and the backend simultaneously:
+```bash
+npm run dev:full
 ```
 
-**Edit a file directly in GitHub**
+- Frontend: [http://localhost:8080](http://localhost:8080)
+- Backend: [http://localhost:5000](http://localhost:5000)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📄 License
 
-**Use GitHub Codespaces**
+This project is personal portfolio work. All rights reserved.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Designed & Built by **Kaushal Gohil**
